@@ -4,6 +4,8 @@ import HeroSection from "./Componenets/HeroSection";
 import AboutMe from "./Componenets/AboutMe";
 import Cards from "./Componenets/Cards";
 import Testimonial from "./Componenets/Testimonial";
+import Contact from "./Componenets/contact";
+import Footer from "./Componenets/Footer";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <AboutMe/>
       <Cards/>
       <Testimonial/>
+      <Contact/>
+      <Footer/>
     </>
   );
 }

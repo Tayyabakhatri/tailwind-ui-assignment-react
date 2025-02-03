@@ -27,7 +27,7 @@ const Cards = () => {
         <h1 className="text-center text-4xl font-bold my-6">My projects</h1>
         <div className="flex flex-wrap gap-4 justify-center mt-[50px]">
           {data.map(({ img, index, heading, text }) => (
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+            <div key={index} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
               <div key={index}>
                 <a href="#">
                   <img src={img} className="rounded-t-lg" alt="" />
