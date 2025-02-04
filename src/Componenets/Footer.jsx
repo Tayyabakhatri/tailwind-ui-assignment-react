@@ -70,10 +70,26 @@ const Footer = () => {
           </div>
           {/* icon */}
           <div className="flex gap-3">
-            <img src="src/assets/Vector (3).png" alt=""className="object-cover" />
-            <img src="src/assets/Vector copy.png" alt=""className="object-cover" />
-            <img src="src/assets/Vector (1).png" alt="" className="object-cover"/>
-            <img src="src/assets/Vector (2).png" alt="" className="object-cover"/>
+            <img
+              src="src/assets/Vector (3).png"
+              alt=""
+              className="object-cover"
+            />
+            <img
+              src="src/assets/Vector copy.png"
+              alt=""
+              className="object-cover"
+            />
+            <img
+              src="src/assets/Vector (1).png"
+              alt=""
+              className="object-cover"
+            />
+            <img
+              src="src/assets/Vector (2).png"
+              alt=""
+              className="object-cover"
+            />
           </div>
         </div>
         <hr />
@@ -84,13 +100,19 @@ const Footer = () => {
           <div>
             <ul className="block gap-3  md:flex md:gap-10">
               <li>
-                <a href="" className="underline">Privacy Policy</a>
+                <a href="" className="underline">
+                  Privacy Policy
+                </a>
               </li>
               <li>
-                <a href=""  className="underline">Terms of Service</a>
+                <a href="" className="underline">
+                  Terms of Service
+                </a>
               </li>
               <li>
-                <a href=""  className="underline">Privacy Policy</a>
+                <a href="" className="underline">
+                  Privacy Policy
+                </a>
               </li>
             </ul>
           </div>

@@ -5,7 +5,7 @@ import { createSlice } from '@reduxjs/toolkit'
 export const testimonialSlice = createSlice({
     name: "Testimonial",
     initialState: {
-        tasks:[],
+        tasks: [],
         clientDetail: [{
             img: "src/assets/Avatar Image.png",
             name: "Dianne Russell",
@@ -23,9 +23,9 @@ export const testimonialSlice = createSlice({
         }]
     },
     reducers: {
-        clients: (state,action) => {
+        clients: (state, action) => {
             console.log(action);
-            
+
             const data = state.tasks
             console.log(data);
 

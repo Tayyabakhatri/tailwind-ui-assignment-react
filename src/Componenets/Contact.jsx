@@ -5,7 +5,9 @@ const Contact = () => {
     <>
       <div className="max-w-2xl mx-auto p-6 bg-white rounded-lg my-32">
         <h2 className="text-center">Get in Touch</h2>
-        <p className="text-3xl font-bold text-gray-800 mb-2  text-center">Contact me</p>
+        <p className="text-3xl font-bold text-gray-800 mb-2  text-center">
+          Contact me
+        </p>
         <p className="text-gray-500 mb-8 text-center">
           Listen ipram dolor sit amet, consectetur adipiscing elit.
         </p>

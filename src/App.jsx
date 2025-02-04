@@ -11,12 +11,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <HeroSection/>
-      <AboutMe/>
-      <Cards/>
-      <Testimonial/>
-      <Contact/>
-      <Footer/>
+      <HeroSection />
+      <AboutMe />
+      <Cards />
+      <Testimonial />
+      <Contact />
+      <Footer />
     </>
   );
 }
